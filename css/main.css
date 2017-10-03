@@ -13,6 +13,9 @@ figure {
   padding: 10px;
   width: 250px;
   position: absolute;
+  left: 30%;
+  top: 30%;
+  transform: translateX(-50%);
 
   background-color: #fff;
   border-radius: 4px;
@@ -21,7 +24,7 @@ figure {
 }
 
 .polaroid:hover {
-  transform: rotate(3deg);
+
 }
 
 .polaroid > img {
@@ -33,4 +36,46 @@ figure {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   text-align: center;
+}
+
+/*Hadrosaur*/
+
+figure:first-of-type {
+  z-index: 3;
+  transform: rotate(-25deg);
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+figure:first-of-type:hover {
+  z-index: 1;
+  transform: rotate(0deg);
+}
+
+/*Pteranodon*/
+
+figure:nth-of-type(2) {
+  z-index: 3;
+  transform: rotate(5deg);
+}
+
+figure:nth-of-type(2):hover {
+  z-index: 3;
+  transform: rotate(0deg);
+}
+
+/*Stegosaurus*/
+
+figure:nth-of-type(3) {
+  z-index: 2;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+figure:nth-of-type(3):hover {
+  z-index: 2;
+  transform: rotate(0deg);
 }
