@@ -13,9 +13,6 @@ figure {
   padding: 10px;
   width: 250px;
   position: absolute;
-  left: 30%;
-  top: 40%;
-  transform: translateX(-50%);
 
   background-color: #fff;
   border-radius: 4px;
@@ -44,8 +41,8 @@ figure {
 /* Hadrosaur */
 
 .polaroid:first-child {
-  left: 30%;
-  top: 20%;
+  left: 20%;
+  top: 6.5em;
   z-index: 1;
   transform: rotate(-12deg);
   position: absolute;
@@ -59,8 +56,8 @@ figure {
 /* Pteranodon */
 
 .polaroid:nth-child(2) {
-  left: 40%;
-  top: 30%;
+  left: 30%;
+  top: 10em;
   z-index: 3;
   transform: rotate(4deg);
 }
@@ -73,8 +70,8 @@ figure {
 /* Stegosaurus */
 
 .polaroid:last-child {
-  left: 50%;
-  top: 20%;
+  left: 40%;
+  top: 6em;
   z-index: 2;
   transform: rotate(35deg);
   position: absolute;
